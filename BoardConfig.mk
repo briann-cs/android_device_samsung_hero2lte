@@ -19,7 +19,7 @@ TARGET_KERNEL_CONFIG := exynos8890-hero2lte_defconfig
 
 # DT/Boot/Recovery Image
 TARGET_DTS_NAMES := exynos8890-hero2lte_eur_open
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/$(TARGET_DEVICE)/dt.img
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 41943040
