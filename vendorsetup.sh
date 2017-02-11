@@ -1,0 +1,2 @@
+add_lunch_combo du_hero2lte-eng
+add_lunch_combo du_hero2lte-userdebug
